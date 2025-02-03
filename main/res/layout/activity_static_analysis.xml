@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Button to upload APK -->
+    <Button
+        android:id="@+id/btnUploadApk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload APK"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView to display the analysis report -->
+    <TextView
+        android:id="@+id/tvAnalysisReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Analysis Report"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to save the report as PDF (currently placeholder) -->
+    <Button
+        android:id="@+id/btnSavePdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save PDF"
+        android:visibility="gone" />
+
+</LinearLayout>

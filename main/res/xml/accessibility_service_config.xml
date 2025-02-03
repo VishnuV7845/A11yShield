@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Configuration for your Accessibility Service -->
+
+    <!-- Define the feedback type: spoken feedback, vibration, etc. -->
+    <feedback-type android:value="feedbackSpoken" />
+
+    <!-- Define the flags for the accessibility service -->
+    <flags android:value="flagRequestFilterKeyEvents|flagDefault" />
+
+    <!-- Set the notification timeout (in milliseconds) for accessibility events -->
+    <notificationTimeout android:value="100" />
+
+    <!-- Define the capabilities of your service -->
+    <capability android:name="capabilityRetrieveWindowContent" />
+
+    <!-- Configure the accessibility event types that the service listens to -->
+    <event-types android:value="typeWindowStateChanged|typeViewClicked|typeViewScrolled|typeViewTextChanged" />
+
+    <!-- Define other properties of the accessibility service -->
+    <global-accessibility-action android:name="accessibilityActionClick" android:value="0" />
+
+</accessibility-service>
