@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">A11yShield</string>
+    <string name="app_logo">App Logo</string>
+    <string name="brought_to_you_by">Brought to you by</string>
+    <string name="college_logo">College Logo</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Consent & Permissions -->
+    <string name="consent_title">App Consent and Permissions</string>
+    <string name="consent_purpose_details">A11yShield scans your installed applications to identify which ones declare the use of Android Accessibility Services. This helps raise awareness about potentially high-privilege apps on your device. An estimated risk score is provided based on the declaration of these services. You can also scan APK files before installation.</string>
+    <string name="permissions_required">Permissions Required</string>
+    <string name="permissions_details">"To scan all installed apps (required on Android 11+): Query All Packages\nTo save scan reports to Downloads: Write External Storage."</string> <!-- Updated detail -->
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="proceed_to_dashboard">Proceed to Dashboard</string>
+    <string name="permissions_granted">Permissions Granted</string>
+    <string name="please_grant_permissions">Please grant the necessary permissions first.</string>
+    <string name="permissions_already_granted">All required permissions are already granted.</string>
+    <string name="permissions_granted_success">Permissions granted successfully!</string>
+    <string name="permission_denied_basic">Permission denied. Some features may not work.</string>
+    <string name="permission_denied_settings">Permission denied. Please enable it in App Settings.</string>
+    <string name="settings">Settings</string>
+    <string name="query_permission_info">Query permission might need manual grant via Settings or ADB for testing.</string>
+    <string name="permissions_denied_warning">Some permissions were denied. The app might not function correctly.</string>
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_denied_settings_message">Required permissions have been permanently denied. Please enable them in the app settings to continue.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="permission_status_granted">Permissions Granted</string>
+    <string name="permission_status_required">Permissions Required</string>
+    <string name="permissions_still_required">Required permissions are still needed to proceed.</string>
+    <string name="permissions_details_qap_only">To scan all installed apps, the \'Query All Packages\' permission is required on Android 11 and newer.</string>
+
+    <!-- Main Activity / Dashboard -->
+    <string name="tab_installed_apps">Installed Apps</string>
+    <string name="tab_apk_scanner">APK Scanner</string>
+    <string name="apk_scanner_placeholder">APK Scanner Feature - Coming Soon!</string>
+
+    <!-- App Scanner -->
+    <string name="app_icon">App Icon</string>
+    <string name="status_accessibility_declared">Accessibility Service Declared</string>
+    <string name="status_no_accessibility">No Accessibility Services Declared</string>
+    <string name="scan_apps">Scan Apps</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="total_apps_scanned">Total Apps Scanned: %1$d</string>
+    <string name="scan_failed_permission">Scan failed. Please ensure the \'Query All Packages\' permission is granted.</string> <!-- Simplified -->
+    <string name="no_data_to_report">No scan data available to generate a report.</string>
+    <string name="storage_permission_required_report">Storage permission is required to save the report to Downloads.</string> <!-- Updated -->
+    <string name="report_saved_to">Report saved: %1$s</string>
+    <string name="open_downloads">View Downloads</string> <!-- Changed back -->
+    <string name="report_generation_failed">Failed to generate PDF report.</string>
+    <string name="cannot_open_downloads">Could not open Downloads folder.</string>
+    <string name="cannot_open_pdf">No application found to open PDF files.</string>
+    <string name="cannot_open_pdf_uri_null">Cannot open report: Invalid file reference.</string>
+    <string name="cannot_open_pdf_viewer_error">Error opening PDF viewer.</string>
+    <string name="report_generated_opening">Report generated. Opening…</string> <!-- Keep this -->
+    <string name="report_saved_error_opening">Report saved, but failed to get URI for opening.</string> <!-- Keep this -->
+
+    <!-- App Detail -->
+    <string name="risk_assessment_title">Risk Assessment:</string>
+    <string name="declared_a11y_services">Declared Accessibility Services:</string>
+    <string name="manage_app_settings">Manage App Settings</string>
+    <string name="none_declared">None Declared</string>
+    <string name="cannot_open_settings">Cannot open app settings screen.</string>
+
+    <!-- Risk Levels -->
+    <string name="risk_none">None</string>
+    <string name="risk_low">Low Risk</string>
+    <string name="risk_medium">Medium Risk</string>
+    <string name="risk_high">High Risk</string>
+
+    <string name="select_apk_button">Select Apk</string>
+    <string name="scan_icon_description">Scan Icon</string>
+    <string name="select_apk_placeholder">Select Apk</string>
+    <string name="other_declared_permissions">Other Declared Permissions</string>
+
+    <string name="high_risk_count_label">High: %1$d</string>
+    <string name="medium_risk_count_label">Medium: %1$d</string>
+    <string name="low_risk_count_label">Low: %1$d</string>
+    <string name="none_risk_count_label">None: %1$d</string>
+
+    <!-- APK Scanner -->
+    <string name="select_apk">Select APK File</string>
+    <string name="no_apk_selected">No APK file selected.</string>
+    <string name="scan_apk">Scan Selected APK</string>
+    <string name="please_select_apk">Please select an APK file first.</string>
+    <string name="selected_file_prefix">Selected: %1$s</string> <!-- For showing filename -->
+    <string name="declared_permissions">Declared Permissions:</string>
+
+    <!-- ... other strings ... -->
+    <string name="generate_app_report">Generate Report for this App</string>
+
+    <!-- New Splash Screen Strings -->
+    <string name="splash_brought_to_you">Brought to you by</string>
+    <string name="splash_credits_names">Vishnu Vignesh\nMoulish G A</string> <!-- Use \n for new line -->
+    <string name="splash_supervisor">Under the guidance of Dr. Saravanan S</string>
+
+    <string name="risk_label_with_score">%1$s (Score: %2$d)</string>
+
+</resources>

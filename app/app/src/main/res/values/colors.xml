@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">@color/colorAccent</color> <!-- Point to accent -->
+    <color name="colorPrimaryVariant">@color/colorAccent</color> <!-- Point to accent or define darker -->
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+    <color name="colorAccent">#a3143c</color>
+    <!-- <color name="colorAccentDarker">#800F2F</color> --> <!-- Removed -->
+    <color name="colorOnAccent">#FFFFFFFF</color>
+    <color name="statusBarColor">?attr/colorPrimaryVariant</color> <!-- Use theme attribute -->
+    <color name="tab_text_color">#888888</color>
+
+    <!-- Risk Colors -->
+    <color name="risk_high">#D32F2F</color>
+    <color name="risk_medium">#FFA000</color>
+    <color name="risk_low">#388E3C</color>
+    <color name="risk_none">#757575</color>
+</resources>
